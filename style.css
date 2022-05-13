@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@700&display=swap');
+
+
+
+.nav-bar{
+    display: flex;
+    
+    width: auto;
+    height: 55px;
+    padding: 10px;
+    gap: 10px;
+    
+    background: #F55A5A; /*Essa cor nao existe no figma só coloquei pra ficar mais visual*/
+}
+
+
+
+.icone-logo{
+    width: 50px;
+    height: 36px ;
+}
+
+.icone-bag{
+    display: flex;
+    width:34px ;
+    height: 34px;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+.main{
+    
+   
+}
+.descricao{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-buy{
+    width: 274px;
+    height: 90px;
+    color: white;
+    background: #FF0000;
+}
+footer{
+
+    position: absolute;
+    width: auto;
+    height: 167px;
+
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 21px;
+
+
+}

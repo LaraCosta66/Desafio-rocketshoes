@@ -13,24 +13,23 @@ body {
   font-family: "Roboto", Arial;
   background-color: var(--background);
 }
-header {
-  padding: 30px;
-  background: var(--background);
-}
-.Menu-nav {
+.desc {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  width: 40%;
   align-items: center;
+  padding: 18px;
 }
-.lista {
+
+.desc .lista {
   display: flex;
   list-style: none;
   align-items: center;
-  gap: 100px;
-
+  justify-content: space-around;
   font-family: "Roboto";
-  font-style: normal;
   font-size: 24px;
+  width: 100%;
+  margin-bottom: 15%;
 }
 
 input {
@@ -56,13 +55,6 @@ input {
   width: 100%;
   gap: 10px;
 }
-.desc {
-  display: flex;
-  flex-direction: column;
-  width: 45%;
-  align-items: center;
-  justify-content: center;
-}
 
 .content{
     display: flex;
@@ -86,18 +78,29 @@ input {
 }
 .full-galeria {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 55%;
+    width: 60%;
     background-color: var(--main-background);
-    padding: 40px;
+    padding: 18px;
+}
+.full-galeria .lista {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Roboto";
+  font-size: 24px;
+  margin-bottom: 14%;
+  width: 96.2%;
 }
 .main-galeria {
     display: flex;
-    width: 55%;
-    justify-content: center;
-    gap: 50px;
+    width: 100%;
+    justify-content: space-around;
+}
+.main-galeria img {
+  width: 30%;
 }
 
 .button-buy {

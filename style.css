@@ -3,7 +3,7 @@
 :root {
   --button: #ff0000;
   --main-background: #c4c4c4;
-  --background: #e5e5e5;
+  --background: #e5e5e500;
   --text: #000;
   --footer: #000;
   --text-description: #9c9696;
@@ -11,7 +11,8 @@
 body {
   margin: 0;
   font-family: "Roboto", Arial;
-  background-color: var(--background);
+  
+  
 }
 .desc {
   display: flex;
@@ -19,6 +20,7 @@ body {
   width: 40%;
   align-items: center;
   padding: 18px;
+  background-color: rgba(211, 208, 211, 0.596);
 }
 
 .desc .lista {
@@ -53,7 +55,6 @@ input {
 .main {
   display: flex;
   width: 100%;
-  gap: 10px;
 }
 
 .content{
@@ -111,12 +112,28 @@ input {
   border: none;
   font-size: 24px;
 }
-footer {
-  position: absolute;
-  width: auto;
-  height: 167px;
 
+footer {
+  width: 100%;
+  height: 167px;
   font-family: "Roboto";
   font-size: 18px;
-  line-height: 21px;
+  display: flex;
+  margin-left: 20px;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  gap: 9%;
+  background-color: rgba(211, 208, 211, 0.596);
+
+}
+
+.more-info {
+width: 437px;
+height: 166px;
+background: #000000;
+margin-right: 0;
+color: #e5e5e5;
+font-family: "Roboto";
+font-size: 24px;
 }
